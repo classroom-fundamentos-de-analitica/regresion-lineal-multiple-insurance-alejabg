@@ -155,7 +155,7 @@ def pregunta_04():
 
     # Evalúe el modelo con los conjuntos de entrenamiento y prueba.
     y_train_pred = gridSearchCV.predict(X_train)
-    y_test_pred = gridSearchCV.predict(X_train)
+    y_test_pred = gridSearchCV.predict(X_test)
 
     # Compute el error cuadratico medio de entrenamiento y prueba. Redondee los
     # valores a dos decimales.
